@@ -24,7 +24,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #255ee9;
-  height: 100px;
+  height: 80px;
 }
 
 .container {
@@ -99,16 +99,16 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  height: 660px;
   /* background-color: #00008b; */
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .hero-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 950px;
@@ -122,8 +122,9 @@ nav ul li a {
 }
 
 .caption {
-  padding: 60px 100px;
+  padding: 50px 70px 10px;
   font-size: 20px;
+  text-align: center;
 }
 
 .hero .hero-container .text, .caption {
@@ -161,10 +162,13 @@ main {
 }
 
 .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 750px;
   height: 515px;
-  background-color: #1e90ff;
-}
+/*   background-color: #1e90ff;
+ */}
 
 .text-container {
   width: 500px;
