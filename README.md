@@ -16,4 +16,4 @@ Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni compless
 La parte relativa alle onde NON consideratela. Lasciate i blocchi grigi dritti.
 
 ## BONUS:
-Mettete le onde :occhiolino:  (solo a lavoro finito!! :orco_giapponese:)
+Mettete le onde (solo a lavoro finito!!)
