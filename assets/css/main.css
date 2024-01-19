@@ -123,11 +123,15 @@ nav ul li a {
 
 .caption {
   padding: 50px 70px 10px;
-  font-size: 20px;
-  text-align: center;
 }
 
-.hero .hero-container .text, .caption {
+.b-caption {
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.hero-container .text, 
+.hero-container .caption {
   color: white;
 }
 
@@ -158,7 +162,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 625px;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 .img-container {
@@ -173,15 +177,15 @@ main {
 .text-container {
   width: 500px;
   height: 515px;
-  background-color: #ffc0cb;
-}
+/*   background-color: #ffc0cb;
+ */}
 
 .big-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1050px;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 .container-big-bottom {
