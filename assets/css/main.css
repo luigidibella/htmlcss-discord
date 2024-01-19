@@ -23,8 +23,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3161e0;
-  height: 80px;
+  background-color: #255ee9;
+  height: 100px;
 }
 
 .container {
@@ -71,7 +71,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-.btn {
+.login {
   display: flex;
   height: 50px;
   width: 250px;
@@ -80,10 +80,17 @@ nav ul li a {
   align-items: center;
 }
 
-.btn span {
+.btn {
   background-color: white;
-  padding: 10px 15px;
-  border-radius: 35%;
+  padding: 15px 15px;
+  border-radius: 30px;
+}
+
+.b-btn {
+  background-color: #23272a;
+  padding: 15px 15px;
+  border-radius: 30px;
+  color: white;
 }
 /* /HEADER */
 
@@ -92,15 +99,45 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 525px;
-  background-color: #00008b;
+  height: 650px;
+  /* background-color: #00008b; */
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 950px;
   height: 420px;
-  background-color: #ee82ee;
+/*   background-color: #ee82ee;
+ */}
+
+.text {
+  font-size: 60px;
+  font-weight: bolder;
 }
+
+.caption {
+  padding: 60px 100px;
+  font-size: 20px;
+}
+
+.hero .hero-container .text, .caption {
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 400px;
+/*   background-color: #7fffd4;
+ */}
 /* /HERO */
 
 /* MAIN */
