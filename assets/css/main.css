@@ -175,6 +175,10 @@ main {
  */}
 
 .text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   width: 500px;
   height: 515px;
 /*   background-color: #ffc0cb;
@@ -189,9 +193,26 @@ main {
 }
 
 .container-big-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   width: 1250px;
   height: 940px;
-  background-color: #228b22;
+/*   background-color: #228b22;
+ */}
+
+.text-center {
+  text-align: center;
+}
+
+.small-text {
+  font-size: 30px;
+  font-weight: bolder;
+  height: 50px;
+  width: 100%;
+  background-image: url(../img/stars.svg);
+  background-position: center;
 }
 /* /MAIN */
 
