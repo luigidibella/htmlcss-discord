@@ -206,6 +206,11 @@ main {
   text-align: center;
 }
 
+.a-btn {
+  background-color: #8ea1e1;
+  color: white;
+}
+
 .small-text {
   font-size: 30px;
   font-weight: bolder;
@@ -233,14 +238,14 @@ footer {
 .big-column {
   width: 370px;
   height: 600px;
-  background-color: #f08080;
-}
+/*   background-color: #f08080;
+ */}
 
 .column {
   width: 220px;
   height: 600px;
-  background-color: #20b2aa;
-}
+/*   background-color: #20b2aa;
+ */}
 
 /* .hr {
   color: white;
@@ -260,15 +265,15 @@ footer {
   align-items: center;
   width: 1250px;
   height: 90px;
-  background-color: #7fffd4;
-}
+/*   background-color: #7fffd4;
+ */}
 
 .logo-footer {
   display: flex;
   width: 70px;
   height: 40px;
-  background-color: #fbb3be;
-  justify-content: center;
+/*   background-color: #fbb3be;
+ */  justify-content: center;
   align-items: center;
 }
 
@@ -276,8 +281,8 @@ footer {
   display: flex;
   width: 100px;
   height: 40px;
-  background-color: #fbb3be;
-  justify-content: center;
+/*   background-color: #fbb3be;
+ */  justify-content: center;
   align-items: center;
 }
 /* /FOOTER */
