@@ -31,8 +31,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-/*   background-color: #daa520;
- */  height: 50px;
+  /* background-color: #daa520; */
+  /* height: 50px; */
   width: 1250px;
 }
 
@@ -43,18 +43,18 @@ header {
   height: 50px;
   width: 250px;
   padding-left: 10px;
-/*   background-color: #228b22;
- */}
+  /* background-color: #228b22; */
+}
 
 .logo-img {
-/*   background-color: pink;
- */}
+  /* background-color: pink; */
+}
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  /* height: 50px; */
   width: 750px;
 }
 
@@ -108,26 +108,28 @@ nav ul li a {
 
 .hero-container {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   width: 950px;
-  height: 420px;
-/*   background-color: #ee82ee;
- */}
+  /* height: 420px; */
+  /* background-color: #ee82ee; */
+  text-align: center;
+}
 
 .text {
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: bolder;
 }
 
 .caption {
-  padding: 50px 70px 10px;
+  width: 925px;
+  padding: 50px 10px;
+  font-size: 1.50rem;
 }
 
 .b-caption {
   padding-top: 30px;
-  font-size: 25px;
+  font-size: 1.50rem;
 }
 
 .hero-container .text, 
@@ -140,9 +142,13 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  width: 400px;
-/*   background-color: #7fffd4;
- */}
+  /* width: 450px; */
+  /* background-color: #7fffd4; */
+}
+
+.button .btn {
+  margin: 0 20px;
+}
 /* /HERO */
 
 /* MAIN */
@@ -170,7 +176,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 750px;
-  height: 515px;
+  /* height: 515px; */
 /*   background-color: #1e90ff;
  */}
 
@@ -180,9 +186,9 @@ main {
   align-items: center;
   flex-direction: column;
   width: 500px;
-  height: 515px;
-/*   background-color: #ffc0cb;
- */}
+  /* height: 515px; */
+  /* background-color: #ffc0cb; */
+}
 
 .big-bottom {
   display: flex;
@@ -218,7 +224,9 @@ main {
   width: 100%;
   background-image: url(../img/stars.svg);
   background-position: center;
+  background-repeat: no-repeat;
 }
+
 /* /MAIN */
 
 /* FOOTER */
@@ -226,36 +234,91 @@ footer {
   background-color: #23272a;
 }
 
+.big-column {
+  width: 370px;
+  /* height: 600px; */
+  padding-right: 100px;
+  /* background-color: #f08080; */
+}
+
+.big-column .title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7289da;
+}
+
+.languages {
+  padding: 30px 0;
+  color: white;
+}
+
+.languages img {
+  width: 30px;
+  height: 20px;
+}
+
+.social {
+  color: white;
+}
+
+.social i {
+  margin-right: 30px;
+}
+
 .top-footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 650px;
-  margin-bottom: 5px;
-  padding-top: 10px;
+  /* height: 650px; */
+  padding-top: 110px;
 }
-
-.big-column {
-  width: 370px;
-  height: 600px;
-/*   background-color: #f08080;
- */}
 
 .column {
   width: 220px;
-  height: 600px;
-/*   background-color: #20b2aa;
- */}
+  /* height: 600px; */
+  /* background-color: #20b2aa; */
+}
+
+.column .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #7289da;
+  margin-bottom: 20px;
+}
+
+.column ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.column li {
+  margin-bottom: 20px;
+}
+
+.column a{
+  text-decoration: none;
+  color: white;
+}
+
+.column a:hover{
+  text-decoration: underline;
+}
 
 /* .hr {
   color: white;
 } */
 
+.line {
+  border-bottom: 1px solid #48567d;
+  margin: auto 150px;
+}
+
 .bottom-footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 120px;
+  /* height: 120px; */
+  padding: 40px 0 115px;
   background-color: #23272a;
 }
 
@@ -264,16 +327,16 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 1250px;
-  height: 90px;
-/*   background-color: #7fffd4;
- */}
+  /* height: 90px; */
+  /* background-color: #7fffd4; */
+}
 
 .logo-footer {
   display: flex;
   width: 70px;
   height: 40px;
-/*   background-color: #fbb3be;
- */  justify-content: center;
+  /* background-color: #fbb3be; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -281,8 +344,8 @@ footer {
   display: flex;
   width: 100px;
   height: 40px;
-/*   background-color: #fbb3be;
- */  justify-content: center;
+  /* background-color: #fbb3be; */
+  justify-content: center;
   align-items: center;
 }
 /* /FOOTER */
